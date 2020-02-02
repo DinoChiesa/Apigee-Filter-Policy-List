@@ -45,9 +45,11 @@ Then,
 
 2. copy-paste the [filter-policy-list.user.js](lib/filter-policy-list.user.js) script into place.
 
-3. Reload the browser tab that is displaying the Proxies list.
+3. Reload the browser tab that is displaying the Proxy Editor.
 
-4. Done.
+4. Click a button to add a new policy.
+
+5. Done.
 
 
 ## License
