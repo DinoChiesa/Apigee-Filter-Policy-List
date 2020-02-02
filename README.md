@@ -28,7 +28,9 @@ or set of domains. Thereafter, all pages loaded from those domains will run that
 This script registers for apigee.com . When it finds that the current page
 displays the proxy editor, it adds an event listener to each of the three "add
 policy" buttons. This event listener is a bit of JavaScript that updates
-the HTML DOM after the pagfe displays the policy picker.
+the HTML DOM after the page displays the policy picker, to add an input
+box. When the user types into the input box, the page dynamically filters the
+list of policies shown in the picker.
 
 ## Installing the script
 
@@ -38,6 +40,7 @@ If you don't have Tampermonkey loaded for your browser, you must first visit
 Then,
 
 1. Use the tampermonkey menu to add a new script.
+
    <img src="img/tm-add-new-script.png" width='308px'>
 
 2. copy-paste the [filter-policy-list.user.js](lib/filter-policy-list.user.js) script into place.
