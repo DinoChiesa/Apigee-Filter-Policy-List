@@ -65,5 +65,6 @@ It *ought to* work just fine on other combinations of browsers.
 
 ## Bugs
 
-??
+Navigating to the Overview tab and then back to the Develop tab, somehow causes the
+event handlers to be forgotten. To workaround this, refresh the page. 
 
